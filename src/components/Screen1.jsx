@@ -31,7 +31,6 @@ export default function Screen1({ onNext }) {
             >
                 <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">I have a little secret for you...</h1>
                 <p className="text-2xl md:text-3xl text-purple-200 font-light">And trust me... only YOU deserve this ✨</p>
-                <p className="text-2xl md:text-3xl text-purple-200 font-light">And at last one thing for my bro __ Bhosdaaaa ✨</p>
             </motion.div>
 
             {/* Bottom button */}
@@ -51,4 +50,5 @@ export default function Screen1({ onNext }) {
         </motion.div>
     )
 }
+
 
