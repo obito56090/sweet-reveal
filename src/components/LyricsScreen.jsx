@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 
 export default function LyricsScreen() {
     const lyrics = [
-        "Bhosdaaaaaaaaaaaa",
+        "Tu haseen tera naam haseen ae",
         "Tere ishq da jaam haseen ae",
         "Eh be-matlabi zindagi",
         "Jado di tere naam haseen ae",
