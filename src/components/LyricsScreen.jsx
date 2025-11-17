@@ -151,12 +151,12 @@ export default function LyricsScreen() {
                         className="text-3xl md:text-4xl font-semibold px-4 text-center">
                         For My Haseen Girl❤️
                     </motion.h2>
-                    <p className="text-2xl md:text-3xl text-purple-200 font-light">And at last for my bro aryan __BHOsdaaaaaa ✨</p>
                 </motion.div>
             )}
         </motion.div>
     )
 }
+
 
 
 
