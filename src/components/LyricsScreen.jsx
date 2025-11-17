@@ -150,14 +150,21 @@ export default function LyricsScreen() {
                         transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
                         className="text-3xl md:text-4xl font-semibold px-4 text-center">
                         For My Haseen Girl❤️
-                    </b> FROM ARYAN
                     </motion.h2>
-                    </motion.h2>
+                    <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 1 }}
+                className="text-center space-y-4 flex flex-col justify-center"
+            >
+                <p className="text-2xl md:text-3xl text-purple-200 font-light">FROM YOUR's BELOVED ARYAN ✨</p>
+            </motion.div>
                 </motion.div>
             )}
         </motion.div>
     )
 }
+
 
 
 
